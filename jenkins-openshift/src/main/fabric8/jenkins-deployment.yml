@@ -48,8 +48,8 @@ spec:
           value: "https://kubernetes.default:443"
         resources:
             limits:
-              cpu: 1
-              memory: 512Mi
+              memory: 1Gi
+              cpu: 2
         volumeMounts:
         - mountPath: /var/lib/jenkins
           name: jenkins-home

@@ -1,7 +1,5 @@
 metadata:
   name: view-jenkins
-roleRef:
-  name: jenkins
 subjects:
 - kind: ServiceAccount
   name: jenkins

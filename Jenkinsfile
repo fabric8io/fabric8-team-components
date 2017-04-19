@@ -1,6 +1,7 @@
 #!/usr/bin/groovy
 @Library('github.com/fabric8io/fabric8-pipeline-library@master')
 def stagedProject
+def utils = new io.fabric8.Utils()
 releaseNode {
   checkout scm
   readTrusted 'release.groovy'

@@ -12,6 +12,8 @@ metadata:
   name: "content-repository"
 spec:
   replicas: 1
+  strategy:
+    type: Recreate
   template:
     spec:
       containers:

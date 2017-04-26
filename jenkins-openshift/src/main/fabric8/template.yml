@@ -1,3 +1,4 @@
 kind: Template
 parameters:
 - name: PROJECT_NAMESPACE
+- name: RECOMMENDER_API_TOKEN

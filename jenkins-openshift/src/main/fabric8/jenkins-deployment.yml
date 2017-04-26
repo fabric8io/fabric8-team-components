@@ -57,6 +57,11 @@ spec:
           value: "true"
         - name: KUBERNETES_MASTER
           value: "https://kubernetes.default:443"
+        - name: RECOMMENDER_API_TOKEN
+          valueFrom:
+            secretKeyRef:
+              name: jenkins-recommender-api-token
+              key: token
         resources:
             limits:
               memory: 1Gi

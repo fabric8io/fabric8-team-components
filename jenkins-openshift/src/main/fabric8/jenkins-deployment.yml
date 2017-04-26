@@ -57,6 +57,8 @@ spec:
           value: "true"
         - name: KUBERNETES_MASTER
           value: "https://kubernetes.default:443"
+        - name: MAX_METASPACE_SIZE
+          value: 200m
         - name: RECOMMENDER_API_TOKEN
           valueFrom:
             secretKeyRef:

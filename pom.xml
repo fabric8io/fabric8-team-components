@@ -86,6 +86,11 @@
     <fabric8.maven.plugin.version>3.4.1</fabric8.maven.plugin.version>
     <fabric8.maven.plugin.majorVersion>3</fabric8.maven.plugin.majorVersion>
 
+    <!-- this works around this issue: https://github.com/fabric8io/fabric8-maven-plugin/issues/943 -->
+    <fabric8.mode>kubernetes</fabric8.mode>
+    <!-- lets let DCs wait about 2 hours to download all the images before barfing -->
+    <fabric8.openshift.deployTimeoutSeconds>7200</fabric8.openshift.deployTimeoutSeconds>
+
     <exec-maven-plugin.version>1.2.1</exec-maven-plugin.version>
     <maven.enforcer.plugin.version>1.4</maven.enforcer.plugin.version>
     <maven.javadoc.plugin.version>2.10.3</maven.javadoc.plugin.version>

@@ -5,7 +5,7 @@ metadata:
   labels:
     project: "jenkins"
     provider: "fabric8"
-    expose: "false"
+    expose: "true"
   annotations:
     fabric8.io/app-menu: development
   name: "jenkins"

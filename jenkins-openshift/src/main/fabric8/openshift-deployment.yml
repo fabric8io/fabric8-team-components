@@ -2,9 +2,10 @@
 apiVersion: "extensions/v1beta1"
 kind: "Deployment"
 metadata:
-  labels:
-    fabric8.io/type: "preview"
   name: "jenkins"
+  annotations:
+    fabric8.io/target-platform: "openshift"
+    configmap.fabric8.io/update-on-change: "jenkins"
 spec:
   replicas: 1
   strategy:
@@ -76,8 +77,13 @@ spec:
         - mountPath: /var/lib/jenkins
           name: jenkins-home
           readOnly: false
+        - name: jenkins-config
+          mountPath: /opt/openshift/configuration/
       serviceAccountName: "jenkins"
       volumes:
       - name: jenkins-home
         persistentVolumeClaim:
           claimName: jenkins-home
+      - name: jenkins-config
+        configMap:
+          name: jenkins

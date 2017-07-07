@@ -15,8 +15,7 @@ spec:
   template:
     spec:
       containers:
-      - image: fabric8/jenkins-openshift:SNAPSHOT-PR-62-1
-      # - image: "fabric8/jenkins-openshift:${jenkins-openshift.version}"
+      - image: "fabric8/jenkins-openshift:${jenkins-openshift.version}"
         imagePullPolicy: "IfNotPresent"
         name: "jenkins"
         readinessProbe:

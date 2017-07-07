@@ -46,7 +46,7 @@ def release(project){
     helmPush = false
     groupId = 'io.fabric8.fabric8-team-components.apps'
     githubOrganisation = 'fabric8io'
-    artifactIdToWatchInCentral = 'jenkins'
+    artifactIdToWatchInCentral = 'jenkins-openshift'
     artifactExtensionToWatchInCentral = 'jar'
     promoteToDockerRegistry = 'docker.io'
     dockerOrganisation = 'fabric8'

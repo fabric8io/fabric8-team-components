@@ -145,7 +145,6 @@
 
   <modules>
     <module>content-repository</module>
-    <module>jenkins</module>
     <module>jenkins-openshift</module>
   </modules>
 

@@ -4,7 +4,7 @@ metadata:
     expose.service-key.config.fabric8.io/keycloak: keycloak.url
     fabric8.io/target-platform: "kubernetes"
 data:
-  keycloak.url: http://keycloak
+  keycloak.url: ${KEYCLOAK_URL}
   credentials.xml.tpl: |-
     <?xml version='1.0' encoding='UTF-8'?>
     <com.cloudbees.plugins.credentials.SystemCredentialsProvider plugin="credentials@1.23">

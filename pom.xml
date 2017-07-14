@@ -83,7 +83,7 @@
     <fabric8.version>2.2.205</fabric8.version>
     <junit.version>4.12</junit.version>
 
-    <fabric8.maven.plugin.version>3.5.4</fabric8.maven.plugin.version>
+    <fabric8.maven.plugin.version>3.5.5</fabric8.maven.plugin.version>
     <fabric8.maven.plugin.majorVersion>3</fabric8.maven.plugin.majorVersion>
 
     <!-- this works around this issue: https://github.com/fabric8io/fabric8-maven-plugin/issues/943 -->

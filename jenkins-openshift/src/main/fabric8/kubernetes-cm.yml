@@ -90,6 +90,7 @@ data:
         <string>method io.fabric8.kubernetes.client.Client getNamespace</string>
         <string>method io.fabric8.kubernetes.client.KubernetesClient nodes</string>
         <string>method io.fabric8.kubernetes.client.KubernetesClient services</string>
+        <string>method io.fabric8.kubernetes.api.pipelines.PipelineConfiguration isUseDockerSocket</string>
         <string>method java.io.File toURL</string>
         <string>method java.io.File newOutputStream</string>
         <string>method java.io.File close</string>

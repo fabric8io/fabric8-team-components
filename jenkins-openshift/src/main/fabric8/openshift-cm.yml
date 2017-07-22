@@ -79,6 +79,7 @@ data:
         <string>method io.fabric8.kubernetes.api.model.ObjectMeta getName</string>
         <string>method io.fabric8.kubernetes.api.model.ObjectMetaFluent addToAnnotations java.lang.String java.lang.String</string>
         <string>method io.fabric8.kubernetes.api.model.ObjectMetaFluent withName java.lang.String</string>
+        <string>method io.fabric8.kubernetes.api.pipelines.PipelineConfiguration getUseDockerSocketFlag</string>
         <string>method io.fabric8.kubernetes.api.pipelines.PipelineConfiguration isUseDockerSocket</string>
         <string>method io.fabric8.kubernetes.client.Client adapt java.lang.Class</string>
         <string>method io.fabric8.kubernetes.client.Client getNamespace</string>
@@ -107,6 +108,7 @@ data:
         <string>method io.fabric8.openshift.client.OpenShiftClient imageStreams</string>
         <string>method io.fabric8.openshift.client.OpenShiftClient projectrequests</string>
         <string>method io.fabric8.openshift.client.OpenShiftClient projects</string>
+        <string>method io.fabric8.openshift.client.OpenShiftClient supportsOpenShiftAPIGroup</string>
         <string>method java.io.File close</string>
         <string>method java.io.File exists</string>
         <string>method java.io.File newOutputStream</string>

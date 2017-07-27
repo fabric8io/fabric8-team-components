@@ -8,7 +8,7 @@ metadata:
     prometheus.io/scrape: "true"
   labels:
     provider: "fabric8"
-    project: "${project.artifactId}"
+    app: "${project.artifactId}"
     version: "${project.version}"
     group: "io.fabric8.devops.apps"
     expose: "true"
@@ -19,6 +19,6 @@ spec:
     protocol: "TCP"
     targetPort: 8080
   selector:
-    project: "content-repository"
+    app: "content-repository"
     provider: "fabric8"
     group: "io.fabric8.devops.apps"

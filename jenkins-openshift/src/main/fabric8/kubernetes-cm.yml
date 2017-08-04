@@ -111,6 +111,7 @@ data:
         <string>method io.fabric8.openshift.client.OpenShiftClient projectrequests</string>
         <string>method io.fabric8.openshift.client.OpenShiftClient projects</string>
         <string>method io.fabric8.openshift.client.OpenShiftClient supportsOpenShiftAPIGroup</string>
+        <string>method io.fabric8.openshift.client.OpenShiftClient supportsOpenShiftAPIGroup java.lang.String</string>
         <string>method java.io.File close</string>
         <string>method java.io.File exists</string>
         <string>method java.io.File newOutputStream</string>

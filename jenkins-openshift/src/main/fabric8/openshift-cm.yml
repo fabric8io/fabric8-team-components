@@ -173,6 +173,7 @@ data:
         <string>new java.util.Scanner java.io.InputStream java.lang.String</string>
         <string>new java.util.Scanner java.lang.Readable</string>
         <string>staticField groovy.io.FileType FILES</string>
+        <string>staticMethod org.kohsuke.groovy.sandbox.impl.Checker checkedConstructor java.lang.Class java.lang.Object[]</string>
         <string>staticMethod groovy.xml.DOMBuilder newInstance</string>
         <string>staticMethod groovy.xml.XmlUtil serialize org.w3c.dom.Element</string>
         <string>staticMethod io.fabric8.kubernetes.api.environments.Environments load io.fabric8.kubernetes.client.DefaultKubernetesClient java.lang.String</string>

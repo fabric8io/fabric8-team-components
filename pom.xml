@@ -100,7 +100,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <version.maven-bundle-plugin>2.3.7</version.maven-bundle-plugin>
     <version.compiler.plugin>2.3.1</version.compiler.plugin>
-    <jenkins-openshift.version>v1ab08d4</jenkins-openshift.version>
+    <jenkins-openshift.version>vefd275b</jenkins-openshift.version>
   </properties>
 
   <distributionManagement>

@@ -74,6 +74,8 @@ data:
         <string>method hudson.model.Job getProperty java.lang.Class</string>
         <string>method hudson.model.Run getCause java.lang.Class</string>
         <string>method hudson.scm.SCM getBrowser</string>
+        <string>method io.fabric8.kubernetes.client.KubernetesClient configMaps</string>
+        <string>method io.fabric8.kubernetes.client.dsl.Namespaceable inNamespace java.lang.String</string>
         <string>method io.fabric8.jenkins.openshiftsync.BuildCause getName</string>
         <string>method io.fabric8.jenkins.openshiftsync.BuildConfigProjectProperty getName</string>
         <string>method io.fabric8.kubernetes.api.model.Doneable done</string>
@@ -112,6 +114,12 @@ data:
         <string>method io.fabric8.openshift.client.OpenShiftClient projects</string>
         <string>method io.fabric8.openshift.client.OpenShiftClient supportsOpenShiftAPIGroup</string>
         <string>method io.fabric8.openshift.client.OpenShiftClient supportsOpenShiftAPIGroup java.lang.String</string>
+        <string>new org.csanchez.jenkins.plugins.kubernetes.PodAnnotation java.lang.String java.lang.String</string>
+        <string>method java.lang.Class getPackage</string>
+        <string>method java.lang.Package getSpecificationTitle</string>
+        <string>method java.lang.Package getSpecificationVersion</string>
+        <string>method java.lang.Package getImplementationVersion</string>
+        <string>staticMethod java.lang.Double parseDouble java.lang.String</string>
         <string>method java.io.File close</string>
         <string>method java.io.File exists</string>
         <string>method java.io.File newOutputStream</string>
@@ -157,6 +165,7 @@ data:
         <string>method org.w3c.dom.Node setTextContent java.lang.String</string>
         <string>method org.w3c.dom.NodeList getLength</string>
         <string>method org.w3c.dom.NodeList item int</string>
+        <string>method io.fabric8.kubernetes.api.model.ConfigMap getData</string>
         <string>new groovy.json.JsonBuilder java.lang.Object</string>
         <string>new groovy.json.JsonSlurper</string>
         <string>new groovy.json.JsonSlurperClassic</string>
@@ -175,6 +184,7 @@ data:
         <string>new java.util.Scanner java.io.InputStream java.lang.String</string>
         <string>new java.util.Scanner java.lang.Readable</string>
         <string>staticField groovy.io.FileType FILES</string>
+        <string>staticMethod org.codehaus.groovy.runtime.DefaultGroovyMethods getAt java.lang.Object java.lang.String</string>
         <string>staticMethod org.kohsuke.groovy.sandbox.impl.Checker checkedConstructor java.lang.Class java.lang.Object[]</string>
         <string>staticMethod groovy.xml.DOMBuilder newInstance</string>
         <string>staticMethod groovy.xml.XmlUtil serialize org.w3c.dom.Element</string>

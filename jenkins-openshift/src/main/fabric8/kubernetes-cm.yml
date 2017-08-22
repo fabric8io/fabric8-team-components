@@ -120,6 +120,8 @@ data:
         <string>method java.lang.Package getSpecificationVersion</string>
         <string>method java.lang.Package getImplementationVersion</string>
         <string>staticMethod java.lang.Double parseDouble java.lang.String</string>
+        <string>method io.fabric8.kubernetes.client.KubernetesClient configMaps</string>
+        <string>method io.fabric8.kubernetes.api.model.ConfigMap getData</string>
         <string>method java.io.File close</string>
         <string>method java.io.File exists</string>
         <string>method java.io.File newOutputStream</string>

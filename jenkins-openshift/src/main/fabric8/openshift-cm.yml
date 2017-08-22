@@ -157,6 +157,8 @@ data:
         <string>method org.w3c.dom.NodeList item int</string>
         <string>method io.fabric8.kubernetes.api.model.ConfigMap getData</string>
         <string>new org.csanchez.jenkins.plugins.kubernetes.PodAnnotation java.lang.String java.lang.String</string>
+        <string>method io.fabric8.kubernetes.client.KubernetesClient configMaps</string>
+        <string>method io.fabric8.kubernetes.api.model.ConfigMap getData</string>
         <string>method java.lang.Class getPackage</string>
         <string>method java.lang.Package getSpecificationTitle</string>
         <string>method java.lang.Package getSpecificationVersion</string>
